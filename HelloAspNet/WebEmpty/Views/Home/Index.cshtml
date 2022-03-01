@@ -1,0 +1,24 @@
+﻿@model HelloEmpty.Models.HelloMessage
+
+<html>
+<head>
+	<title> Hello MVC!</title>
+</head>
+<body>
+	<h1>@Model.Message</h1>
+	<hr />
+	<h2>@ViewBag.Noti</h2>
+	<!-- form을 클릭하면 post방식으로 보내고, 어디에다가 보낼지 명시함-->
+	<!-- home에 index라는 애를 불러주세요 방식은 post입니다. -->
+	<form asp-controller="Home" asp-action="Index", method="post">
+		<!-- Message는 Model의 Message를 의미함 -->
+		<label asp-for="Message">Enter Message</label>
+		<br />
+		<input type="text" asp-for="Message"/>
+		<br />
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
+<!-- cshtml, razor파일에서 뭔가를 그려주기 위해서는 옵션 추가 _Viewimport.cshtml -->
+<!-- Views - 새항목 - Razor 뷰 가져오기 -->

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6ryBvE+SXGmiuRoj7bUTuRnl7r4BtpIWgdSUtym9hBk=",
+  "Source": "HelloEmpty",
+  "BasePath": "_content/HelloEmpty",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
