@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d8d77447-10be-4707-8597-bf7e8f0155dc": {
+      "ProjectGuid": "d8d77447-10be-4707-8597-bf7e8f0155dc",
+      "DisplayName": "HelloMVC",
+      "ColorIndex": 0
+    },
+    "f5566b65-64f0-429d-bd41-65426b13e5f5": {
+      "ProjectGuid": "f5566b65-64f0-429d-bd41-65426b13e5f5",
+      "DisplayName": "HelloRazor",
+      "ColorIndex": 1
+    },
+    "3d18d1aa-f89a-4de3-826d-4e1c4fbb416f": {
+      "ProjectGuid": "3d18d1aa-f89a-4de3-826d-4e1c4fbb416f",
+      "DisplayName": "HelloWebAPI",
+      "ColorIndex": 2
+    },
+    "21c06fc2-6503-440e-bb17-e78b2332c5fb": {
+      "ProjectGuid": "21c06fc2-6503-440e-bb17-e78b2332c5fb",
+      "DisplayName": "HelloEmpty",
+      "ColorIndex": 3
+    },
+    "b604a3f2-712d-4bc1-bd24-d4b00c8512d7": {
+      "ProjectGuid": "b604a3f2-712d-4bc1-bd24-d4b00c8512d7",
+      "DisplayName": "HelloBlazorServer",
+      "ColorIndex": 4
+    },
+    "6d0692ee-6a92-4c72-9300-ce07bfba7f68": {
+      "ProjectGuid": "6d0692ee-6a92-4c72-9300-ce07bfba7f68",
+      "DisplayName": "HelloBlazorClient",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}

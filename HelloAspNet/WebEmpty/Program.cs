@@ -1,15 +1,27 @@
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container. 
-// MVC를 사용하겠다고 선언
-builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-// 주소에 home/index라고 치는 것
-// 처음 home은 controller로 인식하고, Index는 action으로 인식
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseAuthorization();
+
+// mvc처럼 경로를 설정해주지 않았지만 기본적응로 아무것도 입력하지 않았을때는
+// Pages 아래 있는걸 알아서 찾아줌
+app.MapRazorPages();
 
 app.Run();
