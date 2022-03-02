@@ -1,0 +1,11 @@
+﻿@page "/binding"
+
+<h3>Binding</h3>
+
+<p>Value : @_value</p>
+<!-- 실시간으로 변한게 하는 옵션 -->
+<input type="range" step="1" @bind-value="_value" @bind-value:event="oninput"/>
+
+@code {
+	int _value = 15;
+}
