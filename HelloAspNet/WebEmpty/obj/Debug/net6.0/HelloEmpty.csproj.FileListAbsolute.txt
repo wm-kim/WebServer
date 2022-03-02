@@ -12,8 +12,6 @@ C:\Users\user\Desktop\unity study\WebServer\ASP.NET\HelloAspNet\WebEmpty\obj\Deb
 C:\Users\user\Desktop\unity study\WebServer\ASP.NET\HelloAspNet\WebEmpty\obj\Debug\net6.0\HelloEmpty.AssemblyInfo.cs
 C:\Users\user\Desktop\unity study\WebServer\ASP.NET\HelloAspNet\WebEmpty\obj\Debug\net6.0\HelloEmpty.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\unity study\WebServer\ASP.NET\HelloAspNet\WebEmpty\obj\Debug\net6.0\HelloEmpty.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\user\Desktop\unity study\WebServer\ASP.NET\HelloAspNet\WebEmpty\obj\Debug\net6.0\HelloEmpty.RazorAssemblyInfo.cache
-C:\Users\user\Desktop\unity study\WebServer\ASP.NET\HelloAspNet\WebEmpty\obj\Debug\net6.0\HelloEmpty.RazorAssemblyInfo.cs
 C:\Users\user\Desktop\unity study\WebServer\ASP.NET\HelloAspNet\WebEmpty\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\user\Desktop\unity study\WebServer\ASP.NET\HelloAspNet\WebEmpty\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\user\Desktop\unity study\WebServer\ASP.NET\HelloAspNet\WebEmpty\obj\Debug\net6.0\scopedcss\bundle\HelloEmpty.styles.css
