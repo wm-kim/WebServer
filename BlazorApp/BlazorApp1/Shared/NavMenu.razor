@@ -1,0 +1,66 @@
+﻿@inject BlazorApp1.Data.CounterState CounterState
+@implements IDisposable
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">BlazorApp1</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+@*바인딩은 되었지만 실시간으로 갱신되지 않으면 강제로 action이나 event를 이용해서 알려주는 방식을 사용*@
+<div>
+    <p style="color:white">Counter : @CounterState.Count</p>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    // 이렇게만 해주면 Navmenu가 닫힐 때도 사라질때도 항상 OnStateChanged 연결이 끊어지지 않으므로
+    // 끊기 위해서 IDisposable 추가 : 인터페이스를 구현하겠다라는 뜻
+    protected override void OnInitialized()
+    {
+        CounterState.OnStateChanged += onStateChanged;
+    }
+
+    void onStateChanged()
+    {
+        // 실질적으로 UI를 갱신하는 것
+        this.StateHasChanged();
+    }
+
+    // 닫힐 때, 소멸될 때 호출됨, 구독해제
+    void IDisposable.Dispose()
+    {
+         CounterState.OnStateChanged -= onStateChanged;
+    }
+}

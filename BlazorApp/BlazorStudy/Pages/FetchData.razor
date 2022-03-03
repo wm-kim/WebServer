@@ -54,12 +54,25 @@ else
                         </button>
                     </div>
                     <div class="modal-body">
-                        <label for="TemperatureC">TemperatureC</label>
-                        <input class="form-control" type="text" placeholder="TemperatureC" @bind="_addForecast.TemperatureC"/>
-                        <label for="Summary">Summary</label>
-                        <input class="form-control" type="text" placeholder="Summary" @bind="_addForecast.Summary"/>
-                        <br />
-                        <button class="btn btn-primary" @onclick="SaveForecast">Save</button>
+                        <EditForm Model="_addForecast" OnValidSubmit="SaveForecast">
+
+                            @*마지막으로 기능을 사용하겠다고 부품을 넣어줌. Form validation 기능을 ON*@
+                            <DataAnnotationsValidator/>
+
+                            @*에러가 있으면 메시지 상세 출력*@
+                            <ValidationSummary/>
+
+                            <label for="TemperatureC">TemperatureC</label>
+                            @*<input class="form-control" type="text" placeholder="TemperatureC" @bind="_addForecast.TemperatureC"/>*@
+                            <InputNumber class="form-control" placeholder="TemperatureC" @bind-Value="_addForecast.TemperatureC"/>
+                            <label for="Summary">Summary</label>
+                            @*<input class="form-control" type="text" placeholder="Summary" @bind="_addForecast.Summary"/>*@
+                            <InputText class="form-control" placeholder="Summary"  @bind-Value="_addForecast.Summary"/>
+                            <br />
+                            @*onclick에서 처리하는게 아니라 Editform에서 처리할 것이므로 onclick 필요없음
+                            <button class="btn btn-primary" @onclick="SaveForecast">Save</button>*@
+                            <button class="btn btn-primary" @onclick="SaveForecast">Save</button>
+                        </EditForm>
                     </div>
                 </div>
             </div>
@@ -87,6 +100,9 @@ else
     }
 
     // 아무것도 입력안하고 save눌러도 빈값이 들어감 - validation 어떻게함? 
+    // 1. attribute를 이용해서 어떻게 만들어야하는지 기입
+    // 2. validation까지 처리할 수 있는 EditForm
+    // blazor에서 지원하는 기능 InputNumber, validation 적용 type은 입력할 필요없다. 
     void SaveForecast()
     {
         _showPopup = false;

@@ -1,0 +1,23 @@
+﻿@page "/counter"
+@inject BlazorApp1.Data.CounterState CounterState
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+@*강제로 바인딩을 해주는 경우 운이 나쁘면 실시간으로 갱신이 안될수 도 있다.*@
+<p role="status">Current count: @CounterState.Count</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    // 다른페이지로 갔다가 와도 어떻게 하면 카운트 값을 유지시킬 수 있을까? 
+    // Dependency Injection으로 해결 가능
+    // private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        CounterState.Count += 1;
+        // currentCount++;
+    }
+}
