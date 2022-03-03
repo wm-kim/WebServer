@@ -9,7 +9,7 @@
 
 <p>This component demonstrates fetching data from a service.</p>
 
-@if (forecasts == null)
+@if (_forecasts == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -25,7 +25,7 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var forecast in _forecasts)
             {
                 <tr>
                     <td>@forecast.Date.ToShortDateString()</td>
@@ -36,13 +36,66 @@ else
             }
         </tbody>
     </table>
+
+    <button class="btn btn-primary" @onclick="AddNewForecast">
+        Add New Forecast
+    </button>
+
+    if(_showPopup)
+    {
+        // popup을 나타내는 class
+        <div class = "modal" style="display:block" role ="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Add Forecast</h3>
+                        <button type="button" class="close" @onclick="ClosePopup">
+                            <span area-hidden="true">X</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <label for="TemperatureC">TemperatureC</label>
+                        <input class="form-control" type="text" placeholder="TemperatureC" @bind="_addForecast.TemperatureC"/>
+                        <label for="Summary">Summary</label>
+                        <input class="form-control" type="text" placeholder="Summary" @bind="_addForecast.Summary"/>
+                        <br />
+                        <button class="btn btn-primary" @onclick="SaveForecast">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    }
 }
 
 @code {
-    private WeatherForecast[]? forecasts;
+    private List<WeatherForecast> _forecasts;
+
+    bool _showPopup = false;
+    WeatherForecast _addForecast;
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+        _forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+    }
+
+    // 팝업을 쓰려면 javascript를 따른 기능을 이용해야 될것같지만
+    // blazor에서 if else 처리로 껐다 켰다하면 편할 것이다.
+    void AddNewForecast()
+    {
+        _showPopup = true;
+        _addForecast = new WeatherForecast();
+    }
+
+    // 아무것도 입력안하고 save눌러도 빈값이 들어감 - validation 어떻게함? 
+    void SaveForecast()
+    {
+        _showPopup = false;
+        _addForecast.Date = DateTime.Now;
+        _forecasts.Add(_addForecast);
+    }
+
+    void ClosePopup()
+    {
+        _showPopup = false;
     }
 }

@@ -21,7 +21,7 @@ else
 {
     // <TableTemplate Header=""> RenderFragment같은 경우는 방대해질 수 있으므로 이렇게 넘기지 않는다.
     //  WeatherForecast 형이라는걸 추론하지 못하는 경우 강제로 알려줌
-    <TableTemplate Items="forecasts" TItems="WeatherForecast">
+    <TableTemplate Items="forecasts" TItem="WeatherForecast">
         <Header>
             <th>Date</th>
             <th>Temp. (C)</th>
