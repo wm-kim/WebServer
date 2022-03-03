@@ -6,6 +6,9 @@
 <!-- dependency injection -->
 @inject WeatherForecastService ForecastService
 
+@*Templeted Component : Generic 형식처럼 부품을 만들어서 사용*@
+@*RenderFragment로 이루어진 Razor Component*@
+
 <h1>Weather forecast</h1>
 
 <p>This component demonstrates fetching data from a service.</p>
@@ -16,28 +19,23 @@
 }
 else
 {
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var forecast in forecasts)
-            {
-                <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+    // <TableTemplate Header=""> RenderFragment같은 경우는 방대해질 수 있으므로 이렇게 넘기지 않는다.
+    //  WeatherForecast 형이라는걸 추론하지 못하는 경우 강제로 알려줌
+    <TableTemplate Items="forecasts" TItems="WeatherForecast">
+        <Header>
+            <th>Date</th>
+            <th>Temp. (C)</th>
+            <th>Temp. (F)</th>
+            <th>Summary</th>
+        </Header>
+        @*TItem Type을 꺼내쓸 수 있는 방법 Context, 이름 지어줌*@
+        <Row Context="forecast">
+            <td>@forecast.Date.ToShortDateString()</td>
+            <td>@forecast.TemperatureC</td>
+            <td>@forecast.TemperatureF</td>
+            <td>@forecast.Summary</td>
+        </Row>
+    </TableTemplate>
 
 @code {
     private WeatherForecast[]? forecasts;

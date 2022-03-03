@@ -1,0 +1,36 @@
+﻿@using BlazorApp.Data
+<h3>TableTemplate</h3>
+
+@*Templeted Component : Generic 형식처럼 부품을 만들어서 사용*@
+@typeparam TItem
+
+<table class="table">
+    <thead>
+        <tr>
+            @Header
+        </tr>
+    </thead>
+    <tbody>
+        @*var : 현재 TItem형이다. RenderFragment 이용 *@
+        @foreach (var item in Items)
+        {
+            <tr>
+                @Row(item)
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    // template를 사용하는 쪽에서 header를 채워주면 그부분이 출력이 될 것이다.
+    // RenderFragment, html을 받는다.
+    [Parameter]
+    public RenderFragment Header { get; set; }
+
+    [Parameter]
+    public RenderFragment<TItem> Row { get; set; }
+
+    [Parameter] // 외부에서 받겠다라는 뜻
+    // system collection generic
+    public IReadOnlyList<TItem> Items { get; set; }
+}
