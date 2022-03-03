@@ -1,18 +1,42 @@
 ﻿@page "/counter"
+@*route parameter 인자를 넣어줄 수 있다. string일 경우는 냅둬도 되는데 int형일 경우
+    명시해줘야함
+
+    Routing을 사용할 때 항상 상대경로 기반으로 생각을 해야함
+    고정주소만 Routing에 넣어줘야하고 변동될 수 있는 부분은 hard coding된 채로 들어가면 안됨
+    어디서 관리해야하는가?
+*@
+@page "/counter/{CurrentCount:int}"
+
+
+@*Count Error FetchData MainLayout2를 따르도록 만드는 방법
+원래는 아무것도 추가하지 않았는데 MainLayout이 default로 된 이유 App에서 설정함
+직접 지정, 같은 폴더에 있는 애들을 적용시키고 싶다면 import file 사용
+@layout MainLayout2
+*@
+
+
+@inject NavigationManager navManager;
+
 
 <PageTitle>Counter</PageTitle>
 
 <h1>Counter</h1>
 
-<p role="status">Current count: @currentCount</p>
+<p role="status">Current count: @CurrentCount</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
-@code {
-    private int currentCount = 0;
+@*<a class="btn btn-primary" href="FetchData">FetchData</a>*@
 
+@code {
     private void IncrementCount()
     {
-        currentCount++;
+        CurrentCount++;
+
+        // navManager.NavigateTo("FetchData");
     }
+
+    [Parameter]
+    public int CurrentCount { get; set; }
 }

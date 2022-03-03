@@ -6,6 +6,12 @@
         </button>
     </div>
 </div>
+@*모바일 환경에서의 토글
+Nav link : <a href=""> <a/>와 기능적으로 비슷함, 스타일적인것이 다르다. 클릭된 생태라는것을 보여줌
+어떤 Page에서 다른 Page로 넘어가고 싶을 때 0순위로 고려
+코드 상으로도 redirection을 할 수 있다. NavigationManager dependency injection
+*@
+
 
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <nav class="flex-column">

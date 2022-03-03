@@ -1,3 +1,4 @@
+
 namespace BlazorStudy.Data
 {
     public class WeatherForecastService
