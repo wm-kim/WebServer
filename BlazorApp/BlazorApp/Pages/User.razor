@@ -5,7 +5,7 @@
 
 <label>Theme Color</label>
 <select class="form-control" @bind="_selectedColor">
-	@foreach(var option in _options)
+	@foreach(var option in _options)	
 	{
 		<option value="@option">
 			@option
@@ -13,7 +13,8 @@
 	}
 </select>
 
-@*Parameter를 하나씩 지정하기보다 한번에 하는 방법, Name 구분하기 위한 Key, Value 실제 Key의 값*@
+@*Parameter를 하나씩 지정하기보다 한번에 하는 방법, 흘려보낸다, Name 구분하기 위한 Key, Value 실제 Key의 값*@
+@*범위내에서 유지되고 깊이는 상관 없다. 똑같은 [CascadingParameter(Name = "ThemeColor")] 문법으로 받아줄 수 있다.*@
 <CascadingValue Name="ThemeColor" Value="_selectedColor">
 	<!-- parameter였으면 사용하는 부품마다 Color = "" 이런식으로 넣어줘야했음 -->
 	<ShowUser Users="_users" CallbackTest="CallbackTestFunc" @ref="_showUser"></ShowUser>

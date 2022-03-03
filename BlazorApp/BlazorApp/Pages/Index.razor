@@ -1,9 +1,47 @@
 ﻿@page "/"
+@using BlazorApp.Data;
+@inject IFoodService foodService;
+@inject PaymentService paymentService;
 
-<PageTitle>Index</PageTitle>
+@inject SingletonService singleton;
+@inject TransientService transient;
+@inject ScopedService scoped;
 
-<h1>Hello, world!</h1>
+<div>
+	@foreach(var food in foodService.GetFoods())
+	{
+		<div>@food.Name</div>
+		<div>@food.Price</div>
+	}
+</div>
 
-Welcome to your new app.
+@*Singleton : 서버가 하나 뜰때 그때만 하나 생성 이후 변화 없음
+ClientSide blazor은 프로그램 자체를 전송하기 때문에 Sinleton임에도 새창을 열어서 접속할 때마다 다르게 동작할 것이다.
+유저마다 바뀌어야한다면 Transient & Scoped 둘중 하나
+Transient : 무조건 요청할 때마다 계속 변함
+Scoped : 중간 단계. 처음 접속이 일어날 때 한번만 바뀌고 이후 안바뀐다.
+*@
+<div>
+	<h1>Singleton</h1>
+	Guid: @singleton.ID
+	<h1>Transient</h1>
+	Guid: @transient.ID
+	<h1>Scoped</h1>
+	Guid: @scoped.ID
+</div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@code {
+
+	// FoodService.cs 와 의존성이 너무 강함 코드가 맞물려있음
+	// FoodService _foodService = new FoodService();
+
+	// new로 직접 넣어주는것은 좋지않다. FoodService가 필요한 부분마다 매번 new 해줘야함
+	// Interface 형태로 바꾸면 일반 FoodService가 아니라고 하면 뒤에 new 부분만 바꾸면 됨. 
+	// 드상의 의존성이 많이 없어진다.
+	// IFoodService _foodService = new FoodService();
+
+	protected override void OnInitialized()
+	{
+		
+	}
+}
