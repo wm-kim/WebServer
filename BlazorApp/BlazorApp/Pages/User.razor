@@ -3,8 +3,22 @@
 
 <h3>Online Users</h3>
 
-@*razor component 끼리 데이터 넘기는 방법*@
-<ShowUser Users="_users" CallbackTest="CallbackTestFunc" @ref="_showUser"></ShowUser>
+<label>Theme Color</label>
+<select class="form-control" @bind="_selectedColor">
+	@foreach(var option in _options)
+	{
+		<option value="@option">
+			@option
+		</option>
+	}
+</select>
+
+@*Parameter를 하나씩 지정하기보다 한번에 하는 방법, Name 구분하기 위한 Key, Value 실제 Key의 값*@
+<CascadingValue Name="ThemeColor" Value="_selectedColor">
+	<!-- parameter였으면 사용하는 부품마다 Color = "" 이런식으로 넣어줘야했음 -->
+	<ShowUser Users="_users" CallbackTest="CallbackTestFunc" @ref="_showUser"></ShowUser>
+
+</CascadingValue>
 
 <br />
 
@@ -22,6 +36,9 @@
 </div>
 
 @code {
+	string _selectedColor = "Green";
+	List<string> _options = new List<string>() { "Green", "Red", "Blue" };
+
 	List<UserData> _users = new List<UserData>();
 	// child가 가지고 있는 함수를 호출하기 위해서 reference
 	ShowUser _showUser;

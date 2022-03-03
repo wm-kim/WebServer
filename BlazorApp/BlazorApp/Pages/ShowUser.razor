@@ -6,22 +6,30 @@
 
 <br />
 
+<Counter></Counter>
+
 <ul class="list-group">
 	@foreach(UserData user in Users)
 	{
 		<li @key="user" class="list-group-item">
 			<button type="button" class="btn btn-link" @onclick="(() => KickUser(user))">[Kick]</button>
-			<label>@user.Name</label>
+			<label style="color:@_color">@user.Name</label>
 		</li>
 	}
 </ul>
 
 @code {
+	[CascadingParameter(Name = "ThemeColor")]
+	string _color { get; set; }
+
 	[Parameter] // 외부에서 받겠다라는 뜻
 	public List<UserData> Users { get; set; }
 
 	[Parameter]
-	public Action CallbackTest { get; set; }
+	// Action 보다는 EventCallback 방식이 좋음. 미묘한 차이 -> StateHasChanged를 호출안해도 자동으로 반영
+	// public Action CallbackTest { get; set; }
+	public EventCallback CallbackTest { get; set; }
+	// EventCallback<string>
 
 	// unity OnStart 같은것 규약되어있음
 	protected override void OnInitialized()
@@ -39,7 +47,8 @@
 	public void KickUser(UserData user)
 	{
 		Users.Remove(user);
-		CallbackTest.Invoke();
+		// CallbackTest.Invoke(); Action 방식
+		CallbackTest.InvokeAsync(null); // 인자를 안받으면 null
 	}
 
 	// 부모가 가지고 있는 함수를 호출하고 싶다면? [Parameter]를 응용하여 간접적으로 구현가능 delegate, event, Action...
