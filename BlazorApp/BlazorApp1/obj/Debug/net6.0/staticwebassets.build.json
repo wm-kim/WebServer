@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "irdL8xa/y9UppyA5J3Y53d7xfEMIWSGEux6DNK0bP84=",
+  "Hash": "1KKnZjCXzb5d05wkdcOD/uNfFB2wIhNGQEUMdj+PuBA=",
   "Source": "BlazorApp1",
   "BasePath": "_content/BlazorApp1",
   "Mode": "Default",
@@ -527,6 +527,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\unity study\\WebServer\\ASP.NET\\BlazorApp\\BlazorApp1\\wwwroot\\test.js",
+      "SourceId": "BlazorApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\unity study\\WebServer\\ASP.NET\\BlazorApp\\BlazorApp1\\wwwroot\\",
+      "BasePath": "_content/BlazorApp1",
+      "RelativePath": "test.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\test.js"
     }
   ]
 }

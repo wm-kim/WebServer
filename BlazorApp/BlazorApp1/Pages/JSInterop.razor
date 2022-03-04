@@ -1,0 +1,37 @@
+﻿@page "/JSInterop"
+@*javascript를 이용하기 위해서 dependency injection 해줘야한다.*@
+@inject IJSRuntime JSRuntime
+
+<h3>JSInterop</h3>
+
+<div> 
+	<button type="button" class="btn btn-primary" @onclick="Helloworld">
+		Hello World
+	</button>
+</div>
+
+<div> 
+	<button type="button" class="btn btn-primary" @onclick="InputName">
+		Input Name
+	</button>
+	<p>@_name</p>
+</div>
+
+@code {
+	string _name = "";
+	public async void Helloworld()
+	{
+		// js에서 값을 반환해서 callback으로 받아야할 경우에 사용
+		// JSRuntime.InvokeAsync<>
+		// ValueTask를 반환하는 형태이므로 async awit 형식으로 수정 아무 인자도 받지 않음으로 null
+		await JSRuntime.InvokeVoidAsync("testFunction.helloWorld", null);
+
+		// js에서 넘겨준 값을 다시 C#에서도 받아올 수 있다.
+	}
+
+	public async void InputName()
+	{
+		_name = await JSRuntime.InvokeAsync<string>("testFunction.inputName", "Input Name");
+		StateHasChanged(); // UI 갱신
+	}
+}
