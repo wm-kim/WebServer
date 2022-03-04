@@ -20,7 +20,12 @@
       "ProjectGuid": "e266b62f-cc62-4b9d-bba7-12d552040167",
       "DisplayName": "BlazorApp1",
       "ColorIndex": 2
+    },
+    "46ebfb2b-4da8-49fa-9857-6c6ca0ffe516": {
+      "ProjectGuid": "46ebfb2b-4da8-49fa-9857-6c6ca0ffe516",
+      "DisplayName": "BlazorRankingApp",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

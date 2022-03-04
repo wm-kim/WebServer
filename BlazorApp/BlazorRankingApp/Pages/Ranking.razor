@@ -1,0 +1,144 @@
+﻿@page "/ranking"
+@using BlazorRankingApp.Data.Models
+@using BlazorRankingApp.Data.Serivces
+
+@inject RankingService RankingService
+
+<h3>Ranking</h3>
+
+<AuthorizeView>
+    <Authorized>
+        @if (_gameResults == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>UserName</th>
+                        <th>Score</th>
+                        <th>Date</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var gameResult in _gameResults)
+                    {
+                        <tr>
+                            <td>@gameResult.UserName</td>
+                            <td>@gameResult.Score</td>
+                            <td>@gameResult.Date.ToString()</td>
+                            <td>
+                                @*onclick 자체는 인자를 받을 수 없으므로 람다 이용*@
+                                <button class = "btn btn-primary" @onclick="() => UpdateGameResult(gameResult)">Edit</button>
+                            </td>
+                            <td>
+                                <button class = "btn btn-primary" @onclick="() => DeleteGameResult(gameResult)">Delete</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <p>
+                <button class="btn btn-primary" @onclick="AddGameResult">
+                    Add
+                </button>
+            </p>
+
+            @if(_showPopup)
+            {
+                 <div class = "modal" style="display:block" role ="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title">Add/Update GameResult</h3>
+                                <button type="button" class="close" @onclick="ClosePopup">
+                                    <span area-hidden="true">X</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <label for="UserName">UserName</label>
+                                <input class="form-control" type="text" placeholder="UserName" @bind-value="_gameResult.UserName"/>
+                                <label for="Score">Score</label>
+                                <input class="form-control" type="text" placeholder="Score" @bind-value="_gameResult.Score"/>
+                                <button class = "btn btn-primary" @onclick="SaveGameResult">
+                                    Save
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            }
+        }
+    </Authorized>
+    <NotAuthorized>
+        <p>You are not Authorized!</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+
+@code {
+    List<GameResult> _gameResults;
+
+    bool _showPopup = false;
+    GameResult _gameResult; // data를 입력 받기 위함
+
+    protected override async Task OnInitializedAsync()
+    {
+        _gameResults = await RankingService.GetGameResultAsync();
+    }
+
+    void AddGameResult()
+    {
+        _showPopup = true;
+        // id가 0인지 아닌지에 따라 새로 생성하는 데이터인지 판별할 것임
+        _gameResult = new GameResult { Id = 0 };
+    }
+
+    void ClosePopup()
+    {
+        _showPopup = false;
+    }
+
+    void UpdateGameResult(GameResult gameResult)
+    {
+        _showPopup = true;
+        _gameResult = gameResult;
+    }
+    async Task DeleteGameResult(GameResult gameResult)
+    {
+        // result 성공 실패 여부
+        var result = RankingService.DeleteGameResult(gameResult);
+        _gameResults = await RankingService.GetGameResultAsync();// 전체 UI 갱신
+    }
+
+    // 메모리에만 들고 있는게 아니라 DB에도 저장해야한다.
+    // 읽을 때와 마찬가지로 async로 한다.
+    async Task SaveGameResult()
+    {
+        // 새로 만든것
+        if(_gameResult.Id == 0)
+        {
+            _gameResult.Date = DateTime.Now;
+            // 입력받은 데이터를 넘겨주고, database가 추가되는 순간 id가 생성되고 그 id를 확인하는 용도로 결과를 받음
+            var result = RankingService.AddGameResult(_gameResult);
+        }
+        else // 수정한다면
+        {
+            // 어떤 id를 갱신한지 알아야하니까 _gameResult 넘겨줌
+            var result = RankingService.UpdateGameResult(_gameResult);
+        }
+
+        // 왜 다시 처음부터 긁어와야하나? 추가한 것만 _gameResults에 추가하면 안되는가?
+        // 웹서버 같은 경우에는 그렇게까지 성능 최적화를 하지 않고 통쨰로 긁어오는경우가 많음
+        // 오히려 이렇게 하는것이 좋을 때가 있다.
+
+        _showPopup = false;
+        _gameResults = await RankingService.GetGameResultAsync();
+    }
+}
