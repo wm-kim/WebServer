@@ -25,7 +25,17 @@
       "ProjectGuid": "46ebfb2b-4da8-49fa-9857-6c6ca0ffe516",
       "DisplayName": "BlazorRankingApp",
       "ColorIndex": 3
+    },
+    "b57f19e5-c4f3-480c-9007-bca14e594008": {
+      "ProjectGuid": "b57f19e5-c4f3-480c-9007-bca14e594008",
+      "DisplayName": "WebAPI",
+      "ColorIndex": 4
+    },
+    "b165f6fe-9f0f-4423-9279-3f86cbe894ad": {
+      "ProjectGuid": "b165f6fe-9f0f-4423-9279-3f86cbe894ad",
+      "DisplayName": "SharedData",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 6
 }

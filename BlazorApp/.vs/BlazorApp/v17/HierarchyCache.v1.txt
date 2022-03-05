@@ -1,0 +1,462 @@
+﻿++솔루션 'BlazorApp' ‎(6/6개 프로젝트)
+i:{00000000-0000-0000-0000-000000000000}:BlazorApp.sln
+++WebAPI
+i:{00000000-0000-0000-0000-000000000000}:WebAPI
+++Connected Services 
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:>1105
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:>996
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:>999
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:>998
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:>997
+++Properties
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\properties\
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\properties\
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\properties\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\properties\
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\properties\
+++launchSettings.json
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\properties\launchsettings.json
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\properties\launchsettings.json
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\properties\launchsettings.json
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\properties\launchsettings.json
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\properties\launchsettings.json
+++종속성
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:>1104
+i:{b165f6fe-9f0f-4423-9279-3f86cbe894ad}:>1181
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:>995
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:>993
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:>992
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:>994
+++분석기
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:분석기
+i:{b165f6fe-9f0f-4423-9279-3f86cbe894ad}:분석기
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:분석기
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:분석기
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:분석기
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:분석기
+++패키지
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:패키지
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:패키지
+++프레임워크
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:프레임워크
+i:{b165f6fe-9f0f-4423-9279-3f86cbe894ad}:프레임워크
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:프레임워크
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:프레임워크
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:프레임워크
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:프레임워크
+++프로젝트
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:프로젝트
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:프로젝트
+++Controllers
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\controllers\
+++RankingController.cs
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\controllers\rankingcontroller.cs
+++WeatherForecastController.cs
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\controllers\weatherforecastcontroller.cs
+++Data
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\data\
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\data\
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\data\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\data\
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\data\
+++ApplicationDbContext.cs
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\data\applicationdbcontext.cs
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\data\applicationdbcontext.cs
+++Migrations
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\migrations\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\data\migrations\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\migrations\
+++20220304125338_RankingApp.cs
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\migrations\20220304125338_rankingapp.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\migrations\applicationdbcontextmodelsnapshot.cs
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\migrations\applicationdbcontextmodelsnapshot.cs
+++appsettings.json
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\appsettings.json
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\appsettings.json
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\appsettings.json
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\appsettings.json
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\appsettings.json
+++Program.cs
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\program.cs
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\program.cs
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\program.cs
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\program.cs
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\program.cs
+++WeatherForecast.cs
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\weatherforecast.cs
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\data\weatherforecast.cs
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\data\weatherforecast.cs
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\data\weatherforecast.cs
+++서비스 종속성이 발견되지 않음
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:>1002
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:>1000
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:>1001
+++Microsoft.AspNetCore.Analyzers
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b165f6fe-9f0f-4423-9279-3f86cbe894ad}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b165f6fe-9f0f-4423-9279-3f86cbe894ad}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{b165f6fe-9f0f-4423-9279-3f86cbe894ad}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.EntityFrameworkCore (6.0.2)
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:>1242
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:>1014
+++Microsoft.EntityFrameworkCore.Design (6.0.2)
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:>1320
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:>1016
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:>1327
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:>1015
+++Swashbuckle.AspNetCore (6.2.3)
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:>1117
+++Microsoft.AspNetCore.App
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\microsoft.aspnetcore.app
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\microsoft.aspnetcore.app
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\microsoft.aspnetcore.app
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\microsoft.aspnetcore.app
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\microsoft.netcore.app
+i:{b165f6fe-9f0f-4423-9279-3f86cbe894ad}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\shareddata\microsoft.netcore.app
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\microsoft.netcore.app
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\microsoft.netcore.app
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\microsoft.netcore.app
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\microsoft.netcore.app
+++SharedData
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\shareddata\shareddata.csproj
+i:{00000000-0000-0000-0000-000000000000}:SharedData
+++20220304125338_RankingApp.Designer.cs
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\migrations\20220304125338_rankingapp.designer.cs
+++appsettings.Development.json
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\webapi\appsettings.development.json
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\appsettings.development.json
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\appsettings.development.json
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\appsettings.development.json
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\appsettings.development.json
+++Models
+i:{b165f6fe-9f0f-4423-9279-3f86cbe894ad}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\shareddata\models\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\data\models\
+++GameResult.cs
+i:{b165f6fe-9f0f-4423-9279-3f86cbe894ad}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\shareddata\models\gameresult.cs
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\data\models\gameresult.cs
+++BlazorApp
+i:{00000000-0000-0000-0000-000000000000}:BlazorApp
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\bin\debug\net6.0\blazorapp.dll
+++wwwroot
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\
+++Pages
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\pages\
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\pages\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\areas\identity\pages\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\pages\
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\pages\
+++Shared
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\shared\
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\shared\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\areas\identity\pages\shared\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\shared\
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\shared\
+++_Imports.razor
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\_imports.razor
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\pages\_imports.razor
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\_imports.razor
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\_imports.razor
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\_imports.razor
+++App.razor
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\app.razor
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\app.razor
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\app.razor
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\app.razor
+++css
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\font\css\
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\font\css\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\font\css\
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\font\css\
+++favicon.ico
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\favicon.ico
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\favicon.ico
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\favicon.ico
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\favicon.ico
+++FoodService.cs
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\data\foodservice.cs
+++UserData.cs
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\data\userdata.cs
+++WeatherForecastService.cs
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\data\weatherforecastservice.cs
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\data\weatherforecastservice.cs
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\data\weatherforecastservice.cs
+++_Host.cshtml
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\pages\_host.cshtml
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\pages\_host.cshtml
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\pages\_host.cshtml
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\pages\_host.cshtml
+++_Layout.cshtml
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\pages\_layout.cshtml
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\pages\_layout.cshtml
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\pages\_layout.cshtml
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\pages\_layout.cshtml
+++Counter.razor
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\pages\counter.razor
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\pages\counter.razor
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\pages\counter.razor
+++Error.cshtml
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\pages\error.cshtml
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\pages\error.cshtml
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\pages\error.cshtml
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\pages\error.cshtml
+++FetchData.razor
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\pages\fetchdata.razor
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\pages\fetchdata.razor
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\pages\fetchdata.razor
+++Index.razor
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\pages\index.razor
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\pages\index.razor
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\pages\index.razor
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\pages\index.razor
+++ShowUser.razor
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\pages\showuser.razor
+++TableTemplate.razor
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\pages\tabletemplate.razor
+++User.razor
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\pages\user.razor
+++MainLayout.razor
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\shared\mainlayout.razor
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\shared\mainlayout.razor
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\shared\mainlayout.razor
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\shared\mainlayout.razor
+++NavMenu.razor
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\shared\navmenu.razor
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\shared\navmenu.razor
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\shared\navmenu.razor
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\shared\navmenu.razor
+++SurveyPrompt.razor
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\shared\surveyprompt.razor
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\shared\surveyprompt.razor
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\shared\surveyprompt.razor
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\shared\surveyprompt.razor
+++bootstrap
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\bootstrap\
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\bootstrap\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\bootstrap\
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\bootstrap\
+++open-iconic
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\
+++site.css
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\site.css
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\site.css
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\site.css
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\site.css
+++Error.cshtml.cs
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\pages\error.cshtml.cs
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\pages\error.cshtml.cs
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\pages\error.cshtml.cs
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\pages\error.cshtml.cs
+++MainLayout.razor.css
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\shared\mainlayout.razor.css
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\shared\mainlayout.razor.css
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\shared\mainlayout.razor.css
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\shared\mainlayout.razor.css
+++NavMenu.razor.css
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\shared\navmenu.razor.css
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\shared\navmenu.razor.css
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\shared\navmenu.razor.css
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\shared\navmenu.razor.css
+++bootstrap.min.css
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\bootstrap\bootstrap.min.css
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\bootstrap\bootstrap.min.css
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\bootstrap\bootstrap.min.css
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\bootstrap\bootstrap.min.css
+++font
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\font\
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\font\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\font\
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\font\
+++FONT-LICENSE
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\font-license
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\font-license
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\font-license
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\font-license
+++ICON-LICENSE
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\icon-license
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\icon-license
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\icon-license
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\icon-license
+++README.md
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\readme.md
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\readme.md
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\readme.md
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\readme.md
+++bootstrap.min.css.map
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\bootstrap\bootstrap.min.css.map
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\bootstrap\bootstrap.min.css.map
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\bootstrap\bootstrap.min.css.map
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\bootstrap\bootstrap.min.css.map
+++fonts
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\font\fonts\
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\font\fonts\
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\font\fonts\
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\font\fonts\
+++open-iconic-bootstrap.min.css
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+++open-iconic.eot
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+++open-iconic.otf
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+++open-iconic.svg
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+++open-iconic.ttf
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+++open-iconic.woff
+i:{03bf39d7-e2f9-4776-989e-22bac81f7f1d}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+++BlazorStudy
+i:{00000000-0000-0000-0000-000000000000}:BlazorStudy
+++MainLayout2.razor
+i:{3c66eb0e-d65b-4831-a1a4-88a84b1946ff}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorstudy\shared\mainlayout2.razor
+++BlazorRankingApp
+i:{00000000-0000-0000-0000-000000000000}:BlazorRankingApp
+++Areas
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\areas\
+++Identity
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\areas\identity\
+++Account
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\areas\identity\pages\account\
+++RevalidatingIdentityAuthenticationStateProvider.cs
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\areas\identity\revalidatingidentityauthenticationstateprovider.cs
+++Serivces
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\data\serivces\
+++RankingService.cs
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\data\serivces\rankingservice.cs
+++Ranking.razor
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\pages\ranking.razor
+++LoginDisplay.razor
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\shared\logindisplay.razor
+++SQL Server Express LocalDB(로컬) (ConnectionStrings:DefaultConnection)
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:>1081
+++serviceDependencies.json
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\properties\servicedependencies.json
+++LogOut.cshtml
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\areas\identity\pages\account\logout.cshtml
+++_LoginPartial.cshtml
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\areas\identity\pages\shared\_loginpartial.cshtml
+++20220304091425_Initial.cs
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\migrations\20220304091425_initial.cs
+++serviceDependencies.local.json
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\properties\servicedependencies.local.json
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.2)
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:>1017
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:>1018
+++Microsoft.AspNetCore.Identity.UI (6.0.2)
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:>1021
+++Microsoft.EntityFrameworkCore.Relational (6.0.2)
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:>1019
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:>1020
+++20220304091425_Initial.Designer.cs
+i:{46ebfb2b-4da8-49fa-9857-6c6ca0ffe516}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorrankingapp\migrations\20220304091425_initial.designer.cs
+++BlazorApp1
+i:{00000000-0000-0000-0000-000000000000}:BlazorApp1
+++test.js
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\wwwroot\test.js
+++CounterState.cs
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\data\counterstate.cs
+++JSInterop.razor
+i:{e266b62f-cc62-4b9d-bba7-12d552040167}:c:\users\user\desktop\unity study\webserver\asp.net\blazorapp\blazorapp1\pages\jsinterop.razor
+++SQL Server 데이터베이스 (ConnectionStrings:DefaultConnection)
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:>1434
+++connectionId가 'ConnectionStrings:DefaultConnection'인 SQL Server 데이터베이스 종속성이 검색되었습니다.
+i:{b57f19e5-c4f3-480c-9007-bca14e594008}:>1435
