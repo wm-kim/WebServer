@@ -69,3 +69,6 @@ C:\Users\user\Desktop\unity study\WebServer\ASP.NET\BlazorApp\BlazorRankingApp\o
 C:\Users\user\Desktop\unity study\WebServer\ASP.NET\BlazorApp\BlazorRankingApp\obj\Debug\net6.0\ref\BlazorRankingApp.dll
 C:\Users\user\Desktop\unity study\WebServer\ASP.NET\BlazorApp\BlazorRankingApp\obj\Debug\net6.0\BlazorRankingApp.pdb
 C:\Users\user\Desktop\unity study\WebServer\ASP.NET\BlazorApp\BlazorRankingApp\obj\Debug\net6.0\BlazorRankingApp.genruntimeconfig.cache
+C:\Users\user\Desktop\unity study\WebServer\ASP.NET\BlazorApp\BlazorRankingApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\user\Desktop\unity study\WebServer\ASP.NET\BlazorApp\BlazorRankingApp\bin\Debug\net6.0\SharedData.dll
+C:\Users\user\Desktop\unity study\WebServer\ASP.NET\BlazorApp\BlazorRankingApp\bin\Debug\net6.0\SharedData.pdb

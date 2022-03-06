@@ -25,6 +25,7 @@ namespace WebAPI.Controllers
 
         [HttpPost]
         // Create, Body에 있는 정보를 추출하기 위해서 gameresult로 받아줌
+        // json으로 보내줬는데도 알아서 parsing해서 받아줌
         public GameResult AddGameResult([FromBody] GameResult gameresult)
         {
             _context.GameResults.Add(gameresult);
@@ -88,4 +89,5 @@ namespace WebAPI.Controllers
 
             return true;
         }
+    }
 }

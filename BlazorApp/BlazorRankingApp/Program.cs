@@ -25,7 +25,13 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
-builder.Services.AddScoped<RankingService>();
+
+// RankingService를 http client로 이용하겠다. 접속할 상대방의 주소도 넣어줘야함
+builder.Services.AddHttpClient<RankingService>( c =>
+{
+    // WebAPI의 launch setting, ssl 포트와 맞추어준다.
+    c.BaseAddress = new Uri("https://localhost:44306");
+});
 
 var app = builder.Build();
 

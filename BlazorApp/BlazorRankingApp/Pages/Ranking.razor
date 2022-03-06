@@ -1,5 +1,5 @@
 ﻿@page "/ranking"
-@using BlazorRankingApp.Data.Models
+@using SharedData.Models
 @using BlazorRankingApp.Data.Serivces
 
 @inject RankingService RankingService
@@ -113,7 +113,7 @@
     async Task DeleteGameResult(GameResult gameResult)
     {
         // result 성공 실패 여부
-        var result = RankingService.DeleteGameResult(gameResult);
+        var result = await RankingService.DeleteGameResult(gameResult);
         _gameResults = await RankingService.GetGameResultAsync();// 전체 UI 갱신
     }
 
@@ -126,12 +126,12 @@
         {
             _gameResult.Date = DateTime.Now;
             // 입력받은 데이터를 넘겨주고, database가 추가되는 순간 id가 생성되고 그 id를 확인하는 용도로 결과를 받음
-            var result = RankingService.AddGameResult(_gameResult);
+            var result = await RankingService.AddGameResult(_gameResult);
         }
         else // 수정한다면
         {
             // 어떤 id를 갱신한지 알아야하니까 _gameResult 넘겨줌
-            var result = RankingService.UpdateGameResult(_gameResult);
+            var result = await RankingService.UpdateGameResult(_gameResult);
         }
 
         // 왜 다시 처음부터 긁어와야하나? 추가한 것만 _gameResults에 추가하면 안되는가?
